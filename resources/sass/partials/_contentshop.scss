@@ -1,0 +1,35 @@
+.shop-section {
+    background-color: rgb(12, 124, 236);
+}
+
+.shop-section .container {
+    height: 140px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .card-shop {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card:hover {
+    text-decoration: underline;
+}
+
+.card-shop img {
+    width: 45px;
+    margin-right: 1rem;
+}
+
+.location-img {
+    width: 37px;
+}

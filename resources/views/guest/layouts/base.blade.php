@@ -13,7 +13,7 @@
     <main>
         @yield('content')
     </main>
-
+    @include('guest.partials.contentshop')
     @include('guest.partials.footer')
 </body>
 </html>
