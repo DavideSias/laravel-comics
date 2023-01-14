@@ -1,4 +1,3 @@
 <header>
-    <img src="{{ asset('img/dc-logo.png')}}" alt="logo">
-    @extends('guest.partials.navbar')
+    @include('guest.partials.navbar')
 </header>

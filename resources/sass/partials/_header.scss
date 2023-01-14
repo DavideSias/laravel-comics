@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.navbar img {
+    width: 70px;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+.menu-list li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 1.5rem;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: rgb(76, 70, 70);
+}
+
+.menu-list li:hover {
+    border-bottom: 3px solid rgb(12, 124, 236);
+    ;
+}
+
+.menu-list li:hover a {
+    color: rgb(12, 124, 236);
+}
+
+
+.jumbo{
+    height: 400px;
+    background-image: url('./../img/jumbotron.jpg');
+    background-size: cover;
+}
